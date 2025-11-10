@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+*.log
+
+# Node / Frontend
+node_modules/
+.next/
+out/
+dist/
+coverage/
+npm-debug.log*
+yarn-*.log*
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Adat / build / konténer
+docker-data/
+*.sqlite3
+
+# Időjárási nagy fájlok (ha lennének)
+data/**/*.grib2
+data/**/*.nc
+data/**/*.tif
+tiles/**/*
