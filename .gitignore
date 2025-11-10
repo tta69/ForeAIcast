@@ -33,3 +33,7 @@ data/**/*.grib2
 data/**/*.nc
 data/**/*.tif
 tiles/**/*
+
+# Big datasets kept outside repo
+data/worldcities.csv
+data/worldcities.sql
